@@ -1,0 +1,76 @@
+#photo{
+    height: 55vmin;
+    width: 55vmin;
+    box-shadow: 0 0 60px 25px rgb(108, 212, 43);
+    border-radius: 5vmin;
+    position: absolute;
+    top: 24vmin;
+    right: 13vmin;
+}
+
+#photo:hover{
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+
+#btn{
+    background-color: rgb(47, 209, 49);
+    height: 6vmin;
+    width: 17vmin;
+    border-radius: 3vmin;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2.4vmin;
+    border: 0.5vmin solid rgb(0, 80, 23);
+}
+
+#btn:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+
+#btnss{
+    text-align: center;
+}
+
+
+#align{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 7vmin;
+}
+
+#align:hover{
+    text-decoration: underline;
+}
+
+
+.para{
+    background-color: rgb(215, 163, 117);
+    width: 120vmin;
+    height: 60vmin;
+    font-size: 2.8vmin;
+    border-bottom-right-radius: 30vmin;
+    border-top-left-radius: 30vmin;
+    border-top-right-radius: 1vmin;
+    border-bottom-left-radius: 1vmin;
+    border: 0.6vmin solid rgb(223, 164, 113);
+    box-shadow: 0 0 50px 20px rgb(241, 255, 110);
+}
+
+
+.inspara{
+    width: 100vmin;
+    height: 60vmin;
+    text-align:justify;
+    position: absolute;
+    top: 31vmin;
+    left: 14vmin;  
+}
+
+
+.container{
+    background-color: rgb(107, 107, 255);
+}
