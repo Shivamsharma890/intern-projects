@@ -1,0 +1,73 @@
+#message{
+    height: 540px;
+    width: 440px;
+    background-color: rgb(254, 231, 139);
+    text-align: center;
+    padding: 1vmin;
+    border-radius: 30px;
+    border: 3px solid black; 
+}
+
+#message:hover{
+    transition: 1.5s; 
+    transform:rotateY(360deg);
+}
+
+
+#find{
+    margin: 15px;
+    height: 5vmin;
+    width: 50vmin;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 2.5vmin;
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+    background-color: rgb(238, 238, 238);
+}
+
+
+#emails{
+    margin: 15px;
+    height: 5vmin;
+    width: 50vmin;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 2.5vmin;
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+    background-color: rgb(238, 238, 238);
+}
+
+
+#mess{
+     margin: 15px;
+    height: 30vmin;
+    width: 50vmin;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 2.5vmin;
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+    background-color: rgb(238, 238, 238);
+}
+
+
+#btnss{
+    background-color: greenyellow;
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 30px;
+    margin: 15px;
+    border: 2px solid black;
+    font-size: 2.7vmin;
+}
+
+
+.container{
+    background-color: rgb(53, 145, 114);
+    display: flex;
+    justify-content:center;
+    height: 700px;
+    align-items: center;
+}

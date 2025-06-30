@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<link rel="stylesheet" href="Contact form.css"/>
+<body class="container">
+      <div id='message'>
+        <h3>..Message box..</h3>
+        <input id='find' type='text' placeholder='Your name :' required/><br/>
+        <input id='emails'  type='email' name='email' placeholder='enter your email address :' required/><br/>
+        <textarea id='mess' placeholder='write your message...'></textarea>
+        <button id='btnss' onclick="validate()">Submit</button>
+      </div>
+      <!-- *----------------*-------------------*--------------*-----------------*------------------* -->
+      <script>
+      
+      function validate() {
+      const nameit = document.getElementById("find").value.trim();
+      const emailit = document.getElementById("emails").value.trim();
+      const messit = document.getElementById("mess").value.trim();
+      if (nameit === "") {
+       alert("Name is required!");
+      } 
+  
+     if (emailit === "") {
+       alert("email is required!");
+     } 
+     if(messit === ""){
+       alert("Write atleast one letter!");
+     }
+     else {
+       alert("Form Submitted Successfully!"); 
+     }
+   }
+
+  </script>
+      <!-- *----------------*-------------------*--------------*-----------------*------------------* -->  
+</body>
+</html>
