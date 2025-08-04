@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="Portfolio.css" />
+
+<body>
+    <div class="Container">
+        <div class="photo">
+            <div class="FMain">
+
+                <div class="greet">
+                    <p id="hell">Hello</p>
+                    <p>I'm</p>
+                </div>
+                <h1 id="name">Shivam Sharma</h1>
+                <div id="Mrole">
+                    <p>Web</p>
+                    <h2 id="role"> Developer</h2>
+                </div>
+                Welcome to my web developer portfolio! I'm Shivam, a skilled and
+                creative web developer with a passion for creating beautiful,
+                responsive, and user-friendly websites. I've worked on a variety
+                of web projects using html, css and Javascript.</p>
+
+            </div>
+            <img id="pic" src="Assests/Shivam.jpeg" alt="" />
+        </div>
+        <!-- ..............................*..............................*............................. -->
+        <div class="Fsection">
+            <div class="About">
+                <div class="Hline">
+                    About
+                    <p id="me">Me</p>
+                </div>
+                <p id="nline">Creative Web Designer</p>
+                As a web designer, I specialize in creating user interfaces and experiences
+                for digital products. I have extensive experience working with product managers,
+                developers, and other stakeholders to gather requirements, create wireframes and
+                prototypes, and conduct user testing to ensure that the final product meets the
+                needs of the users. Throughout my career, I have achieved several milestones,
+                including designing successful digital products that have received positive
+                feedback from users and stakeholders.
+            </div>
+            <div class="Skills">
+                <img id="skll" src="Assests/html.jpg" />
+                <img id="skll" src="Assests/css.webp" />
+                <img id="skll" src="Assests/js.png" />
+                <img id="skll" src="Assests/react.png" />
+                <img id="skll" src="Assests/C_Logo.png" />
+                <img id="skll" src="Assests/C++_Logo.png" />
+                <img id="skll" src="Assests/Python.png" />
+                <img id="skll" src="Assests/Fcss.png" />
+                <img id="skll" src="Assests/react-native-1.svg" />
+                <img id="skll" src="Assests/studio.png" />
+                <img id="skll" src="Assests/UI.jpeg" />
+                <img id="skll" src="Assests/figma.avif" />
+                <img id="skll" src="Assests/behance.png" />
+            </div>
+
+        </div>
+        <!-- .............................*..................................*............................. -->
+        <p id="offer">What I Offer!</p>
+        <div id="mserv">
+            <p id="mmy">MY</p> Services
+        </div>
+        <div id="Nsection">
+            <div id="box1">
+                <h2>Web Design</h2>
+                I'm dedicated to providing high-quality web design services that are tailored
+                to meet the specific needs of our clients.
+            </div>
+            <div id="box1">
+                <h2>Web Development</h2>
+                I use the latest web technologies and development tools to create websites that
+                are fast, secure, and scalable.
+            </div>
+            <div id="box1">
+                <h2>Creative Design</h2>
+                My approach is collaborative, and I encourage your feedback throughout the design
+                process to ensure that I meeting your expectations.
+            </div>
+        </div>
+        <!-- ............................*..................................*............................ -->
+        <div class="HaC">
+            <div class="Hire">
+                <div class="About">
+                    <div class="Hline">
+                        Hire
+                        <p id="me">Me!</p>
+                    </div>
+                    <p id="nline1">If you have any project in your mind</p>
+                    You can reach me through the contact form provided on this website. Simply fill out the form
+                    with your name, email address, and message, and I will get back to you as soon as possible.
+
+                </div>
+                <div id="imgss">
+                    <a
+                        href="https://www.linkedin.com/in/shivam-sharma-6496712b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img id="box2" src="Assests/L.jpg" /> </a>
+                    <a href="https://www.instagram.com/shivam__sharma.35?igsh=MWU0b21jenl3Mndyeg=="> <img id="box2"
+                            src="Assests/In.avif" /> </a>
+                    <a href="https://github.com/Shivamsharma890"> <img id="box2" src="Assests/G.webp" /> </a>
+                </div>
+            </div>
+
+            <div class="contact">
+                <input id="info" type="text" placeholder="Enter name:" required />
+                <input id="info" type="number" placeholder="Enter Number:" required />
+                <input id="info" type="email" placeholder="Enter email address:" required />
+                <textarea id="boxx">Your idea:</textarea>
+                <button id="btn" onclick="validate()">Send message</button>
+            </div>
+        </div>
+        <!-- ..............................*.................................*............................... -->
+        <script>
+
+            function validate() {
+                const nameit = document.getElementById("info").value.trim();
+                const emailit = document.getElementById("info").value.trim();
+                const messit = document.getElementById("info").value.trim();
+                if (nameit === "") {
+                    alert("Name is required!");
+                }
+
+                if (emailit === "") {
+                    alert("Number is required!");
+                }
+                if (messit === "") {
+                    alert("email is required!");
+                }
+                else {
+                    alert("Form Submitted Successfully!");
+                }
+            }
+
+        </script>
+
+    </div>
+</body>
+
+</html>

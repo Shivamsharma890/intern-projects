@@ -1,0 +1,290 @@
+.Container{
+    padding: 3vmin;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+body{
+    background-color: rgb(37, 32, 32);
+}
+
+
+.greet{
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    font-size: 3vmin;
+}
+
+
+#hell{
+    background-color: rgb(181, 0, 181);
+    color: rgb(255, 255, 255);
+    padding: 1.2vmin;
+    text-align: center;
+    border-radius: 1.2vmin;
+}
+
+
+#name{
+    color: rgb(255, 155, 55);
+    font-size: 6.5vmin;
+    font-style: italic;
+}
+
+
+#role{
+    color: rgb(181, 0, 181);
+    font-size: 4.2vmin; 
+}
+
+
+#Mrole{
+    display: flex;
+    align-items: center;
+    font-size: 4.2vmin;
+    gap: 1vmin;
+    font-weight: 600;
+}
+
+
+.FMain{
+    width: 72vmin;
+    padding: 1.5vmin;
+}
+
+
+#pic{
+    height: 70vmin;
+    background-color: rgb(28, 119, 31);
+    width: 55vmin;
+    padding: 2vmin;
+    border-radius: 2.5vmin;
+    box-shadow: 10px 10px 90px rgb(181, 0, 181);
+    cursor: pointer;
+}
+
+#pic:hover{
+    transform: scale(1.07);
+    transition: 1.5s;
+}
+
+
+.photo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30vmin;
+    padding-bottom: 12vmin;
+    padding-top: 3vmin;
+}
+
+
+.Hline{
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+    font-size: 4.2vmin;
+    font-weight: 600;
+}
+
+
+#me{
+    color: rgb(181, 0, 181);
+}
+
+
+#nline{
+    font-size: 3vmin;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 155, 55);
+    font-weight: 600;
+}
+
+
+#nline1{
+    font-size: 3vmin;
+    font-style: italic;
+    color: rgb(255, 155, 55);
+    font-weight: 600;
+}
+
+
+.About{
+    width: 75vmin;
+    padding: 2vmin;
+}
+
+
+#skll{
+    height: 9.5vmin;
+    width: 9.5vmin;
+    padding: 2vmin;
+    background-color: rgb(90, 90, 90);
+    border-radius: 2vmin;
+}
+
+#skll:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+
+.Skills{
+    width: 80vmin;
+    padding: 2vmin;
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.Fsection{
+    display: flex;
+    gap: 15vmin;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 6vmin;
+}
+
+
+#offer{
+    font-size: 4.2vmin;
+    font-weight: 600;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+
+#mserv{
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+    font-size: 4.2vmin;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+#mmy{
+    color: rgb(181, 0, 181);
+}
+
+
+#box1{
+    background-color: rgb(90, 90, 90);
+    width: 40vmin;
+    padding: 5vmin;
+    text-align: center;
+    border-radius: 2vmin;
+}
+
+#box1:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+#Nsection{
+    padding-top: 2vmin;
+    padding-bottom: 13vmin;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 10vmin;
+}
+
+
+#box2{
+    background-color: rgb(90, 90, 90);
+    width: 5vmin;
+    padding: 1.5vmin;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#box2:hover{
+    transform: scale(1.08);
+    transition: 0.1s;
+}
+
+
+#imgss{
+    display: flex;
+    justify-content: space-around;
+    width: 73vmin;
+    padding: 3vmin;
+}
+
+
+.Hire{
+    padding: 3vmin;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmin;
+    padding: 3vmin;
+}
+
+
+#info{
+    height: 6vmin;
+    width: 80vmin;
+    border-radius: 1vmin;
+    background-color: rgb(90, 90, 90);
+    color: rgb(255, 155, 55);
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+#info::placeholder{
+    color: white;
+}
+
+
+#boxx{
+    height: 30vmin;
+    width: 80vmin;
+    border-radius: 1vmin;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    font-size: 3vmin;
+    outline: none;
+    border: none;
+}
+
+
+#btn{
+    height: 7vmin;
+    width: 21vmin;
+    font-size: 2.5vmin;
+    text-align: center;
+    border-radius: 1vmin;
+    color: white;
+    background-color: rgb(181, 0, 181);
+    font-weight: 600;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+
+.HaC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 3vmin;
+}
